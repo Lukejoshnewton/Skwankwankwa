@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+   <meta charset="utf-8">
+   <title>Skwankwankwa</title>
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+   <link rel="stylesheet" type="text/css" href="css/splitting.css">
+   <link rel="stylesheet" type="text/css" href="css/aos.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="icon" type="image/x-icon" href="Images/Logo/LogoSkwankRed.png">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.all.min.js"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css">
+</head>
+<body>
+   <!-- preloader start-->
+    <div class="preloader js-preloader">
+      <div class="perloader-bg">
+         <div class="bg-item js-bg-item"></div>
+         <div class="bg-item"></div>
+         <div class="bg-item"></div>
+         <div class="bg-item"></div>
+         <div class="bg-item"></div>
+         <div class="bg-item"></div>
+         <div class="bg-item"></div>
+         <div class="bg-item"></div>
+         <div class="bg-item"></div>
+      </div>
+      <div class="preloader-items">
+         <div class="preloader-item"></div>
+         <div class="preloader-item"></div>
+         <div class="preloader-item"></div>
+         <div class="preloader-item"></div>
+      </div>
+    </div>
+    <!-- preloader end-->
+
+<div class="page-wrapper">
+   <!-- header start-->
+   <header class="header">
+      <div class="header-container container">
+         <a href="#" class="header-logo" data-aos="fade-down">
+            <!-- <img src="/Images/Logo/LogoSkwankBlue.png"> -->
+            <span>Skwan</span><span style="background-color: var(--main-color); color: var(--text-x-dark-gray)">Kwankwa</span>
+         </a>
+         <button type="button" class="header-toggler js-header-toggler">
+            <span></span>
+         </button>
+         <nav class="header-menu js-header-menu">
+            <ul data-aos="fade-down">
+               <li><a href="#home">home</a></li>
+               <li><a href="#about">about</a></li>
+               <li><a href="#performers">performers</a></li>
+               <li><a href="#schedule">Sessions</a></li>
+               <!-- <li><a href="#pricing">Tickets</a></li> -->
+               <li><a href="#contact-price">Merch</a></li>
+               <li><a href="#contact">Contact Us</a></li>
+               <!-- <li><a href="#contact"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a></li> -->
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <!-- header end-->
+
+   <!-- home section start-->
+    <section class="home" id="home">
+      <div class="home-container container">
+         <div class="home-left">
+            <h1 class="home-title" data-splitting data-aos="text-animation">
+               skwank<span>Wankwa</span>
+            </h1>
+            <p class="home-subtitle" data-aos="fade-up">
+               <span>
+                  <i class="fa fa-calendar-alt"></i>
+                  TBA
+               </span>
+               <span data-aos="fade-up" data-aos-delay="300">
+                  <i class="fa fa-map-marker-alt"></i>
+                  Gqeberha
+               </span>
+            </p>
+            <div class="home-btn" data-aos="fade-up" data-aos-delay="600">
+               <a href="https://www.quicket.co.za/events/282996-skwankwankwa-sessions-006/#/" target="_blank" class="btn">Buy Tickets</a> &nbsp;&nbsp;<a href="#contact-price" class="btn">Buy Merch</a>
+            </div>
+         </div>
+         <div class="home-right">
+            <div class="home-box">
+               <div class="home-decor" data-aos="reveal-left"></div>
+            <!-- <div class="home-img-box1">
+               <img src="/Images/" alt="img1" data-aos="reveal-left" data-aos-delay="400">
+            </div>
+            <div class="home-img-box2">
+               <img src="/Images/image00009.jpeg" alt="img2" data-aos="reveal-left" data-aos-delay="500">
+            </div> -->
+            </div>
+         </div>
+      </div>
+    </section>
+    <!-- home section end-->
+     
+    <!-- about section start-->
+     <section class="about" id="about">
+      <div class="container">
+         <div class="about-content">
+            <div class="section-header">
+               <h2 class="section-header-title" data-splitting data-aos="text-animation">About</h2>
+            </div>
+            <div class="about-img-box">
+               <img src="/Images/SESSION 003.jpg" alt="img" data-aos="reveal-left">
+               <div class="about-decor1" data-aos="reveal-left"></div>
+               <div class="about-decor2" data-aos="reveal-left"></div>
+            </div>
+            <div class="about-text">
+               <p data-aos="fade">A couple of friends that just gather on a random Saturday and listen to good music.
+               </p>
+                  <p data-aos="fade">We also use CDJs to curate the music.</p>
+               <div class="about-btn" data-aos="fade-up">
+                  <a href="https://www.quicket.co.za/events/282996-skwankwankwa-sessions-006/#/" class="btn">Buy Tickets</a>
+               </div>
+            </div>
+      </div>
+      </div>
+     </section>
+     <!-- about section end-->
+
+     <!-- performers section start-->
+      <section class="performers" id="performers">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-header-title" data-splitting data-aos="text-animation">Skwankwankwa Dj's</h2>
+            </div>
+            <div class="performers-items">
+               <!-- performers item start-->
+                <div class="performers-item">
+                  <img src="/Images/dj's/newJaivaScript.webp" alt="img" data-aos="reveal-left">
+                  <div class="performers-info">
+                     <div class="performers-backdrop" data-aos="reveal-left"></div>
+                     <h3 class="performers-name" data-aos="fade" data-aos-delay="500">JAIVASCRIPT &nbsp;<a target="_blank" href="https://www.instagram.com/jaivascript?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a></h3>
+                     <div class="performers-job" data-aos="fade" data-aos-delay="500">Dj</div>
+                  </div>
+                </div>
+                <!-- performers item start-->
+                <div class="performers-item">
+                    <img src="/Images/dj's/countMore.webp" alt="img" data-aos="reveal-left">
+                    <div class="performers-info">
+                       <div class="performers-backdrop" data-aos="reveal-left"></div>
+                       <h3 class="performers-name" data-aos="fade" data-aos-delay="500">Count More &nbsp;<a target="_blank" href="https://www.instagram.com/count_more?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a></h3>
+                       <div class="performers-job" data-aos="fade" data-aos-delay="500">Dj</div>
+                    </div>
+                  </div>
+                <!-- performers item start-->
+                <div class="performers-item">
+                    <img src="/Images/dj's/Kumnandi.webp" alt="img" data-aos="reveal-left">
+                    <div class="performers-info">
+                       <div class="performers-backdrop" data-aos="reveal-left"></div>
+                       <h3 class="performers-name" data-aos="fade" data-aos-delay="500">Kumnandi &nbsp;<a target="_blank" href="https://www.instagram.com/kumnandiii?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a></h3>
+                       <div class="performers-job" data-aos="fade" data-aos-delay="500">Dj</div>
+                    </div>
+                  </div>
+                <!-- performers item start-->
+                <div class="performers-item">
+                    <img src="/Images/dj's/Phindu.webp" alt="img" data-aos="reveal-left">
+                    <div class="performers-info">
+                       <div class="performers-backdrop" data-aos="reveal-left"></div>
+                       <h3 class="performers-name" data-aos="fade" data-aos-delay="500">Phindu &nbsp;<a target="_blank" href="https://www.instagram.com/phindu__/"><i class="fab fa-instagram"></i></a></h3>
+                       <div class="performers-job" data-aos="fade" data-aos-delay="500">Dj</div>
+                    </div>
+                  </div>
+                  <div class="performers-item">
+                    <img src="/Images/dj's/Chester.webp" alt="img" data-aos="reveal-left">
+                    <div class="performers-info">
+                       <div class="performers-backdrop" data-aos="reveal-left"></div>
+                       <h3 class="performers-name" data-aos="fade" data-aos-delay="500">Chester &nbsp;<a target="_blank" href="https://www.instagram.com/dj_chestar23"><i class="fab fa-instagram"></i></a></h3>
+                       <div class="performers-job" data-aos="fade" data-aos-delay="500">Dj</div>
+                    </div>
+                  </div>
+                  <div class="performers-item">
+                    <img src="/Images/dj's/Piedt.webp" alt="img" data-aos="reveal-left">
+                    <div class="performers-info">
+                       <div class="performers-backdrop" data-aos="reveal-left"></div>
+                       <h3 class="performers-name" data-aos="fade" data-aos-delay="500">Piedt &nbsp;<a target="_blank" href="https://www.instagram.com/malbi_piet/"><i class="fab fa-instagram"></i></a></h3>
+                       <div class="performers-job" data-aos="fade" data-aos-delay="500">Dj</div>
+                    </div>
+                  </div>
+            </div>
+         </div>
+      </section>
+      <!-- performers section end-->
+
+      <!-- schedule section start-->
+       <section class="schedule" id="schedule">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-header-title" data-splitting data-aos="text-animation">Sessions</h2>
+            </div>
+            <div class="schedule-tabs" data-aos="fade-up">
+               <button type="button" data-target="#day-1" class="schedule-tab js-schedule-tab">
+                  Session 1 <span>24-02-2024</span>
+               </button>
+               <button type="button" data-target="#day-2" class="schedule-tab js-schedule-tab">
+                  Session 2 <span>16-03-2024</span>
+               </button>
+               <button type="button" data-target="#day-3" class="schedule-tab js-schedule-tab">
+                  Session 3 <span>20-04-2024</span>
+               </button>
+               <button type="button" data-target="#day-4" class="schedule-tab js-schedule-tab">
+                  Session 4 <span>22-06-2024</span>
+               </button>
+               <button type="button" data-target="#day-5" class="schedule-tab js-schedule-tab">
+                  Session 5 <span>10-08-2024</span>
+               </button>
+               <button type="button" data-target="#day-6" class="schedule-tab active js-schedule-tab">
+                  Session 6 <span>12-10-2024</span>
+               </button>
+            </div>
+            <table class="schedule-table js-schedule-table" id="day-1" data-aos="fade-up">
+               <tr>
+                  <th>artist</th>
+                  <th>genre</th>
+                  <th></th>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/newJaivaScript.webp" alt="img"> <span>JaivaScript</span></td>
+                  <td>Amapiano</td>
+                  <td><a target="_blank" href="https://youtu.be/3ux1O9QKr84?si=GP349dyPVPKKubUW"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/countMore.webp" alt="img"> <span>Count More</span></td>
+                  <td>Amapiano</td>
+                  <td><a target="_blank" href="https://youtu.be/CCW4NWcC_Dc?si=ZkP8WU1S2aTLwXY9"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+            </table>
+            <table class="schedule-table js-schedule-table" id="day-2">
+               <tr>
+                  <th>artist</th>
+                  <th>genre</th>
+                  <th></th>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/countMore.webp" alt="img"> <span>Count More</span></td>
+                  <td>Amapiano</td>
+                  <td><a target="_blank" href="https://youtu.be/mi1d0IKKQec?si=sc4IXvAubYd92hDD"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/newJaivaScript.webp" alt="img"> <span>JaivaScript</span></td>
+                  <td>Amapiano</td>
+                  <td><a target="_blank" href="https://youtu.be/ylsLQdDAvW4?si=Iqi8CxQwmx95Ym8l"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/Phindu.webp" alt="img"> <span>Phindu</span></td>
+                  <td>Amapiano</td>
+                  <td><a target="_blank" href="https://youtu.be/lhXzr8qA88A?si=ugUPkpb3peH9T9e8"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+            </table>
+            <table class="schedule-table js-schedule-table" id="day-3">
+               <tr>
+                  <th>artist</th>
+                  <th>genre</th>
+                  <th></th>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/Piedt.webp" alt="img"> <span>Piedt</span></td>
+                  <td>Afro House</td>
+                  <td><a target="_blank" href="https://youtu.be/xVCtRG-AKPE?si=m-3JLooEwoIQXF2D"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/Chester.webp" alt="img"> <span>Chester</span></td>
+                  <td>Amapiano</td>
+                  <td><a target="_blank" href="https://youtu.be/_Z3IYlaQ554?si=fJdpLXlu5IZSSFcQ"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/countMore.webp" alt="img"> <span>Count More</span></td>
+                  <td>Amapiano</td>
+                  <td><a target="_blank" href="https://youtu.be/ae79vjWTKt4?si=xhOrJbTQhpBdw2d-"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/Phindu.webp" alt="img"> <span>Phindu</span></td>
+                  <td>Amapiano</td>
+                  <td><a target="_blank" href="https://youtu.be/uIsqnqeD_qY?si=RAKOJ-eVRh1SD08Y"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/newJaivaScript.webp" alt="img"> <span>JaivaScript</span></td>
+                  <td>Amapiano</td>
+                  <td><a target="_blank" href="https://youtu.be/PWVVFGBSz5c?si=zQjudIM3JJRXhYwg"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+            </table>
+            <table class="schedule-table js-schedule-table" id="day-4">
+               <tr>
+                  <th>artist</th>
+                  <th>genre</th>
+                  <th></th>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/newJaivaScript.webp" alt="img"> <span>JaivaScript</span></td>
+                  <td>Amapiano</td>
+                  <td><a target="_blank" href="https://youtu.be/LltzCeRnusc?si=mfac8NdxflEsiYe3"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/Piedt.webp" alt="img"> <span>Piedt</span></td>
+                  <td>Afro House</td>
+                  <td><a target="_blank" href="https://youtu.be/RCIUwUbWTTA?si=w2E7a5k9LVHmQ0LF"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+            </table>
+            <table class="schedule-table js-schedule-table" id="day-5">
+               <tr>
+                  <th>artist</th>
+                  <th>genre</th>
+                  <th></th>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/countMore.webp" alt="img"> <span>Count More</span></td>
+                  <td>Amapiano</td>
+                  <td><a target="_blank" href="https://youtu.be/_1GnTq1tQvU?si=e6VqpwuuD99oBv_N"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/Phindu.webp" alt="img"> <img src="/Images/dj's/newJaivaScript.webp" alt="img"> <span>Phindu</span> & <span>JaivaScript</span></td>
+                  <td>Amapiano</td>
+                  <td><a target="_blank" href="https://youtu.be/wGPYnZGkmg4?si=p35nwut2DSKvTGRf"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/Ludwe.webp" alt="img"> <span>Ludwe</span></td>
+                  <td>Afro Tech</td>
+                  <td><a target="_blank" href="https://youtu.be/fqhNnEhQgPw?si=H6h4BHqij85XZpdt"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/Xolani.webp" alt="img"> <span>Xolani</span></td>
+                  <td>Deep House</td>
+                  <td><a target="_blank" href="https://youtu.be/p7ClTmLEelc?si=GXprD1AuKZ-SJDK-"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+            </table>
+            <table class="schedule-table active js-schedule-table" id="day-6">
+               <tr>
+                  <th>artist</th>
+                  <th>genre</th>
+                  <th></th>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/newJaivaScript.webp" alt="img"> <img src="/Images/dj's/countMore.webp" alt="img"> <span>JaivaScript</span> & <span>Count More</span></td>
+                  <td>Amapiano</td>
+                  <td><a target="_blank" href="https://youtu.be/2tP4JSYRV5M?si=O3MOfxWGHxKIqa1E"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+               <tr>
+                  <td><img src="/Images/dj's/Kumnandi.webp" alt="img"> <span>Kumnandi</span></td>
+                  <td>Hip Hop</td>
+                  <td><a target="_blank" href="https://youtu.be/uqOHT_0Z3yA?si=1BBl5e-b2NjpDOr9"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+               </tr>
+               <tr>
+                <td><img src="/Images/IMG_2311_edited.webp" alt="img"> <span>Sbhizo</span></td>
+                <td>Afro House</td>
+                <td><a target="_blank" href="https://youtu.be/LkKuNXFw1zQ?si=NTt0nwX3aiXR9Kb7"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+             </tr>
+             <tr>
+                <td><img src="/Images/dj's/Phindu.webp" alt="img"> <span>Phindu</span></td>
+                <td>Amapiano Mix</td>
+                <td><a target="_blank" href="https://youtu.be/4G8JKrCvhXk?si=BVXcJOmrStp-8cfa"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+             </tr>
+             <tr>
+                <td><img src="/Images/dj's/Piedt.webp" alt="img"> <span>Piedt</span></td>
+                <td>House Mix</td>
+                <td><a target="_blank" href="https://youtu.be/0GgGszfxkQQ?si=944VFOs9oSKig1wU"><i class="fab fa-youtube fa-lg"></i></i></a></td>
+             </tr>
+            </table>
+         </div>
+       </section>
+       <!-- schedule section end-->
+
+       <!-- sponsors section start-->
+        <!-- <section class="sponsors" id="sponsors">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-header-title">Event Sponsors</h2>
+            </div>
+            <div class="sponsors-items">
+                <div class="sponsors-item">
+                  <img src="/Images/Logo/pngegg.png" alt="img">
+                </div>
+                <div class="sponsors-item">
+                  <img src="/Images/Logo/Strettons+Logo+.png" alt="img">
+                </div>
+                <div class="sponsors-item">
+                  <img src="/Images/Logo/coca.png" alt="img">
+                </div>
+                <div class="sponsors-item">
+                  <img src="/Images/Logo/continental-logo-gold-seal.png" alt="img">
+                </div>
+            </div>
+         </div>
+        </section> -->
+       <!-- sponsors section end-->
+
+       <!-- pricing section start-->
+        <section class="pricing" id="pricing" style="display: none;">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-header-title" data-splitting data-aos="text-animation">get your ticket</h2>
+            </div>
+            <div class="pricing-cards">
+               <div class="pricing-card">
+                  <div class="decor" data-aos="reveal-left"></div>
+                  <div class="inner">
+                     <h3 class="title">Early Bird</h3>
+                     <!-- <ul>
+                        <li><i class="fa fa-check">qwertyuio</i></li>
+                        <li><i class="fa fa-check">qwertyuio</i></li>
+                        <li><i class="fa fa-times">qwertyuio</i></li>
+                     </ul> -->
+                     <div class="price">R100.00</div>
+                     <a href="https://paystack.com/buy/early-bird-sjnahc" target="_blank" class="btn">Buy now</a>
+                  </div>
+               </div>
+               <div class="pricing-card">
+                  <div class="decor" data-aos="reveal-left"></div>
+                  <div class="inner">
+                     <h3 class="title">General</h3>
+                     <!-- <ul>
+                        <li><i class="fa fa-check">qwertyuio</i></li>
+                        <li><i class="fa fa-check">qwertyuio</i></li>
+                        <li><i class="fa fa-check">qwertyuio</i></li>
+                     </ul> -->
+                     <div class="price">R150.00</div>
+                     <a href="https://paystack.com/buy/general-ticket-rnjkec" target="_blank" class="btn">Buy now</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+        </section>
+        <!-- pricing section end-->
+
+        <!-- contact section start-->
+        <section class="contact" id="contact-price">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-header-title" data-splitting data-aos="text-animation">Merch</h2>
+            </div>
+            <div class="pricing-cards">
+               <div class="pricing-card">
+                  <div class="decor" data-aos="reveal-left"></div>
+                  <div class="inner">
+                     <h3 class="title" style="color: white;">Black tee</h3>
+                     <img src="/Images/Image__1_-removebg-preview.png" alt="img">
+                     <div class="price">R400.00</div>
+                     <a href="https://paystack.com/buy/skwankwankwa-black-tee-hrdcbc" target="_blank" class="btn">Buy now</a>
+                  </div>
+               </div>
+               <div class="pricing-card">
+                  <div class="decor" data-aos="reveal-left"></div>
+                  <div class="inner">
+                     <h3 class="title" style="color: black;">White tee</h3>
+                     <img src="/Images/thumbnail_IMG_new-removebg-preview.png" alt="img">
+                     <div class="price">R400.00</div>
+                     <a href="https://paystack.com/buy/skwankwankwa-white-tee-fqvkfj" target="_blank" class="btn">Buy now</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+        </section>
+         <!-- contact section end-->
+<br/>
+<br/> 
+         <!-- contact section start-->
+        <section class="contact" id="contact">
+            <div class="container">
+               <div class="section-header">
+                  <h2 class="section-header-title" data-splitting data-aos="text-animation">Contact us</h2>
+               </div>
+               <div class="contact-content">
+                  <div class="contact-items">
+                     <div class="contact-item">
+                        <i class="fa fa-phone"></i>
+                        <div class="text">
+                           <h3>Call us</h3>
+                           <p>0821526874</p>
+                        </div>
+                     </div>
+                     <div class="contact-item">
+                        <i class="fa fa-envelope"></i>
+                        <div class="text">
+                           <h3>Email us</h3>
+                           <p>skwankwankwa@gmail.com</p>
+                        </div>
+                     </div>
+                     <div class="contact-item">
+                        <i class="fa fa-map-marker-alt"></i>
+                        <div class="text">
+                           <h3>Reach us</h3>
+                           <p>Gqeberah</p>
+                        </div>
+                     </div>
+                  </div>
+                  <form class="contact-form" action="send_email.php" method="POST">
+                     <div class="col-2">
+                        <div class="input-box">
+                           <input type="text" placeholder="Name" name="name" class="input">
+                        </div>
+                        <div class="input-box">
+                           <input type="text" placeholder="Email" name="email" class="input">
+                        </div>
+                     </div>
+                        <div class="input-box">
+                           <input type="text" placeholder="Subject" name="subject" class="input">
+                        </div>
+                        <div class="input-box">
+                           <textarea placeholder="Message" class="input input-message" name="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                  </form>
+               </div>
+            </div>
+           </section>
+            <!-- contact section end-->
+
+         <!-- footer start-->
+          <section class="footer">
+            <div class="footer-container container">
+               <div class="footer-social">
+                  <!-- <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a> -->
+                  <a target="_blank" href="https://www.instagram.com/skwankwankwa/"><i class="fab fa-instagram"></i></a>
+                  <a target="_blank" href="https://www.youtube.com/channel/UCj64cLAI41ndvqgD1-wsAvQ"><i class="fab fa-youtube"></i></a>
+               </div>
+               <div class="footer-copyright">
+                  &copy;2024 SKWANKWANKWA. All Rights Reserved
+               </div>
+            </div>
+          </section>
+          <!-- footer end-->
+</div>
+
+<script src="js/aos.js"></script>
+<script src="js/splitting.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

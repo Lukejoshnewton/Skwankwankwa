@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Registration</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/splitting.css">
+        <link rel="stylesheet" type="text/css" href="css/aos.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="Images/Logo/LogoSkwankRed.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.all.min.js"></script>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@sweetalert2/theme-wordpress-admin/wordpress-admin.css">
+     </head>
+<body>
+    <h2>Register</h2>
+    <form action="register.php" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
